@@ -10,3 +10,4 @@ github_username:  pbaisla
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
