@@ -101,15 +101,11 @@ end
 
 You'll notice I printed all the details instead of writing them to a file. This is because it's easier just to redirect the output of this script to a file from a terminal like this,
 
-{% highlight shell %}
-./insomnia.rb 1 > insomnia1.csv
-{% endhighlight %}
+`./insomnia.rb 1 > insomnia1.csv`
 
 Afterwards, I just combined the contents of each file to a single file like this,
 
-{% highlight shell %}
-cat insomnia*.csv > all_insomnia.csv
-{% endhighlight %}
+`cat insomnia*.csv > all_insomnia.csv`
 
 ## Afterthought
 
