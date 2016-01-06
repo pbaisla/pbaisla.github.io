@@ -1,14 +1,43 @@
 ---
 layout: default
 ---
-<div class="post">
+{% if page.image.feature %}
+<div class="page-image-feature">
+  <img class="feature-image" src=
+  {% if post.image.feature contains 'http' %}
+  "{{ page.image.feature }}"
+  {% else %}
+  "{{ site.url }}/images/{{ page.image.feature }}"
+  {% endif %}
+  alt="{{ page.title }} feature image">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  {% if page.image.credit %}
+  <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+</div><!-- /.image-wrap -->
+{% endif %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+<div class="container">
+  <div id="page">
+    <header class="page-header">
+      <h2>{{ page.title }}</h2>
+    </header>
+
+    <article class="page-content">
+      {% if page.video %}
+      {% assign video_embed = page.video | remove:'https://www.youtube.com/watch?v=' %}
+      <iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
+      {% endif %}
+      {{ content }}
+    </article>
+
+
+  </div><!-- end page content -->
+
+
+  {% if site.owner.disqus-shortname and page.comments == true %}
+  <div id="disqus_thread"></div>
+  {% include disqus.html %}
+  {% endif %}
 
 </div>

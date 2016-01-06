@@ -1,13 +1,68 @@
-# Site settings
-title: Prashant Baisla
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: pbaisla's blog
 email: prashantbaisla@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A blog about computers, programming and anything else that might interest me.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://pbaisla.github.io/" # the base hostname & protocol for your site
-twitter_username: prashant7b
-github_username:  pbaisla
+description: A blog about computers, programming and anything else that might interest me.
+# the base hostname & protocol for your site
+# If your project is placed in https://github.com/yourname/yourname.github.io at master branch
+# Then, the 'url' is: http://yourname.github.io
+# If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
+# Then, the 'url' is: http://yourname.github.io/projectname
+url: http://pbaisla.github.io
 
-# Build settings
-markdown: kramdown
-highlighter: pygments
+#
+###################################
+# Jekyll configuration
+####################################
+#
+markdown:    kramdown
+highlighter:  pygments
+excerpt_separator: <!--more-->
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Prashant Baisla
+  avatar: avatar.jpg
+  job: "Full Stack Web Developer"
+  bio: "CSE undergrad at MNNIT Allahabad. Loves building things, reading, linux and open source."
+  email: prashantbaisla@gmail.com
+  disqus-shortname: pbaislablog
+  twitter: prashant7b
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-59621490-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: pbaisla
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: prashantbaisla
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username

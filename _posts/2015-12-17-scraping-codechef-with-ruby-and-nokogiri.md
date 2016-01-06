@@ -1,7 +1,15 @@
 ---
 layout: post
 title:  "Scraping CodeChef with Ruby and Nokogiri"
-date:   2015-12-17 22:41:53
+
+excerpt: "
+A few weeks before Avishkar we held the qualifier round for Insomnia on CodeChef.
+The week after that the event coordinators needed to get a list of all the teams who registered for the event and their details.
+They needed it urgently so I decided to just scrape what they needed off of CodeChef's website directly.
+This post is about how I did that."
+tags: [codechef, ruby, nokogiri, web scraping, avishkar, insomnia, mnnit allahabad]
+categories: [Scripting]
+comments: true
 ---
 
 So, I haven't made any posts in a long time.

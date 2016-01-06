@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "The first of (hopefully) many"
-date:   2015-02-07 22:15:00
+
+excerpt: "Hi. My name is Prashant Baisla and this is my first blog post. I’m planning to write posts at least once a week. I’ll be blogging about anything related to computers and programming because that’s what I do. In this post though, I’ll just be introducing myself."
+tags: [introduction, blogging]
+categories: [Miscellaneous]
+comments: true
 ---
 
 Hi. My name is Prashant Baisla and this is my first blog post. I've been meaning to start blogging for quite a long while and now I've finally done it. *Hurray!* I can finally cross this off my todo list now.

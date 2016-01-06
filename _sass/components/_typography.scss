@@ -1,0 +1,83 @@
+// Typography --------------------
+
+// HTML --------------------
+
+html {
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  font-weight: normal;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// Headings --------------------
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  margin-top: $base-space-unit;
+  margin-bottom: $base-space-unit/3;
+  color: $strong-color;
+}
+
+h1 { font-size: 2.4em; font-weight: 300; }
+h2 { font-size: 1.8em; font-weight: 300; }
+h3 { font-size: 1.5em; font-weight: 600; }
+h4 { font-size: 1.2em; font-weight: 600; }
+h5 { font-size: 1.1em; font-weight: 600; }
+h6 { font-size: 1.0em; font-weight: 600; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+  color: $text-color;
+  &:hover,
+  &:focus {
+    color: lighten($text-color, 24%);
+  }
+}
+
+// Paragraph --------------------
+
+p {
+  margin-top: 0;
+  margin-bottom: $base-space-unit;
+}
+
+// Links --------------------
+
+a {
+   text-decoration: none;
+   color: $primary;
+   &:hover,
+   &:focus {
+     color: lighten($primary, 14%);
+     text-decoration: none;
+   }
+}
+
+// Blockquotes --------------------
+
+blockquote {
+  margin: $base-space-unit 0;
+  font-size: inherit;
+  color: $subtle-color;
+  padding-left: $base-space-unit;
+  font-style: italic;
+  border-left: 5px solid $secondary;
+}
+
+// Strong, em and small --------------------
+
+strong {
+  color: $strong-color;
+}
+em { font-style: italic; }
+small { font-size: 80%; }
+
+
+// List --------------------
+
+ul,
+ol {
+  margin-bottom: $base-space-unit;
+}

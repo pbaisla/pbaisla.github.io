@@ -1,22 +1,10 @@
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include google_analytics.html %}
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  {{ content }}
+  {% include footer.html %}
+  {% include js.html %}
+</body>
 </html>
