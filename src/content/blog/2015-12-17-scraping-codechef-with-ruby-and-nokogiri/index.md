@@ -1,8 +1,9 @@
 ---
-title: "Scraping CodeChef with Ruby and Nokogiri"
-description: "Post from my old blog: Scraping CodeChef with Ruby and Nokogiri"
-date: "Dec 17 2015"
+title: 'Scraping CodeChef with Ruby and Nokogiri'
+description: 'Post from my old blog: Scraping CodeChef with Ruby and Nokogiri'
+date: 'Dec 17 2015'
 ---
+
 <mark>This a post from an older version of my personal blog/website.</mark>
 
 So, I haven't made any posts in a long time.
@@ -19,7 +20,7 @@ This post is about how I did that.
 Everything we needed was available on CodeChef's website and we just had to get it from there.
 Now obviously collecting all the data of 622 teams manually wasn't a good solution.
 We had to automate this task.
-The better option was *web scraping*.
+The better option was _web scraping_.
 From Wikipedia,
 
 > Web scraping (web harvesting or web data extraction) is a computer software technique of extracting information from websites.
@@ -123,6 +124,6 @@ The reason why I didn't just add a loop in the script to cover all 25 pages is t
 So instead I ran 25 instances of the script (one for each page) and restarted the ones which timed out.
 I know it wasn't the best solution for the problem but it was the quickest to implement.
 
-
 [^1]: Avishkar is MNNIT Allahabad's annual Techno-Management Festival
+
 [^2]: Insomnia is a ACM-ICPC style programming contest and part of the CyberQuest category of events in Avishkar

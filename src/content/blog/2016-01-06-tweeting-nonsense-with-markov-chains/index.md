@@ -1,8 +1,9 @@
 ---
-title: "Tweeting nonsense with Markov Chains"
-description: "Post from my old blog: Tweeting nonsense with Markov Chains"
-date: "Jan 06 2016"
+title: 'Tweeting nonsense with Markov Chains'
+description: 'Post from my old blog: Tweeting nonsense with Markov Chains'
+date: 'Jan 06 2016'
 ---
+
 <mark>This a post from an older version of my personal blog/website.</mark>
 
 Last week I finally got around to finishing a small project that I started almost an year ago.
